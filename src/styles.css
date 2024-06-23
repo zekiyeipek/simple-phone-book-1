@@ -1,0 +1,139 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #6f6c6b;
+}
+.main-screen {
+  display: flex;
+  height: 100%; /* Set the height of the main screen to 100% */
+}
+
+.main-menu {
+  background-color: #6f6c6b;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.main-menu h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.search-bar {
+  margin: 10px 0;
+}
+
+.left-panel {
+  background-color: #6f6c6b;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Set the height of the left panel to 100% */
+}
+
+.right-panel {
+  width: 70%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.contact-card {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.card-details {
+  flex: 1;
+}
+
+.card-details h3 {
+  margin: 0;
+}
+
+.card-actions button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #6f6c6b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.person-screen {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+}
+
+.person-screen h2 {
+  color: #6f6c6b;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.person-screen label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.person-screen input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.person-screen button {
+  background-color: #6f6c6b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.main-menu button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #333; /* Dark color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #6f6c6b;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
