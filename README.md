@@ -1,1 +1,4 @@
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://github.com/zekiyeipek/simple-phone-book-1/blob/main/phone%20book%20video.mp4)
+
+
+https://github.com/zekiyeipek/simple-phone-book-1/assets/20567281/e2be7fa6-f4e9-400c-b167-5b9ef830a485
+
